@@ -1,0 +1,14 @@
+training:
+  batch_size: 32
+  epochs: 15
+  learning_rate: 0.001
+  img_size: 224
+
+paths:
+  data_dir: "./data"
+  output_dir: "./outputs"
+
+models:
+  - "mobilenet_v2"
+  - "efficientnet_v2s"
+  - "shufflenet_v2"
