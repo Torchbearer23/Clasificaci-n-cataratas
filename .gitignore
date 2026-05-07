@@ -1,0 +1,16 @@
+# Entorno virtual
+venv/
+.env
+
+# Datos y Pesos (Archivos pesados)
+data/
+outputs/
+*.h5
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Carpetas de sistema
+__pycache__/
